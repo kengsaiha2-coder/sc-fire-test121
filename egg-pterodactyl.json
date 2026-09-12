@@ -1,0 +1,19 @@
+{
+  "_comment": "Pterodactyl Egg Configuration for WhatsApp Baileys Bot",
+  "meta": {
+    "version": "PTDL_v1"
+  },
+  "exported_at": "2026-09-11T23:49:25.097Z",
+  "name": "WhatsApp Baileys Bot",
+  "author": "admin@botlab.local",
+  "description": "Zero-dependency Node.js WhatsApp Bot with auto-reconnect",
+  "features": null,
+  "images": [
+    "ghcr.io/parkervcp/yolks:nodejs_20"
+  ],
+  "startup": "node index.js",
+  "config": {
+    "files": "{\\r\\n    \\\"config.json\\\": {\\r\\n        \\\"parser\\\": \\\"json\\\",\\r\\n        \\\"find\\\": {}\\r\\n    }\\r\\n}",
+    "startup": "{\\r\\n    \\\"done\\\": \\\"Successfully connected to WhatsApp\\\"\\r\\n}"
+  }
+}
